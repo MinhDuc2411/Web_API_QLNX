@@ -136,3 +136,11 @@ C:\Users\Asus\Desktop\LapTrinhWeB_2\DAWeb_QLNX\DuAnWeb_QLNX\DATA_DuAn\obj\Debug\
 C:\Users\Asus\Desktop\LapTrinhWeB_2\DAWeb_QLNX\DuAnWeb_QLNX\DATA_DuAn\obj\Debug\net8.0\ref\DATA_DuAn.dll
 C:\Users\Asus\Desktop\LapTrinhWeB_2\DAWeb_QLNX\DuAnWeb_QLNX\DATA_DuAn\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Asus\Desktop\LapTrinhWeB_2\DAWeb_QLNX\DuAnWeb_QLNX\DATA_DuAn\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Asus\Desktop\LapTrinhWeB_2\DAWeb_QLNX\DuAnWeb_QLNX\DATA_DuAn\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Asus\Desktop\LapTrinhWeB_2\DAWeb_QLNX\DuAnWeb_QLNX\DATA_DuAn\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Asus\Desktop\LapTrinhWeB_2\DAWeb_QLNX\DuAnWeb_QLNX\DATA_DuAn\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Asus\Desktop\LapTrinhWeB_2\DAWeb_QLNX\DuAnWeb_QLNX\DATA_DuAn\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Asus\Desktop\LapTrinhWeB_2\DAWeb_QLNX\DuAnWeb_QLNX\DATA_DuAn\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Asus\Desktop\LapTrinhWeB_2\DAWeb_QLNX\DuAnWeb_QLNX\DATA_DuAn\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Asus\Desktop\LapTrinhWeB_2\DAWeb_QLNX\DuAnWeb_QLNX\DATA_DuAn\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Asus\Desktop\LapTrinhWeB_2\DAWeb_QLNX\DuAnWeb_QLNX\DATA_DuAn\obj\Debug\net8.0\DATA_DuAn.sourcelink.json
