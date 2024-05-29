@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "B2SKl06xiRGDZVooxd5quS/aBKyM3sJ8qvgX9ct4hGo=",
+  "Source": "DuAnWeb_QLNX",
+  "BasePath": "_content/DuAnWeb_QLNX",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DATA_DuAn.csproj",
+      "Version": 2,
+      "Source": "DATA_DuAn",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

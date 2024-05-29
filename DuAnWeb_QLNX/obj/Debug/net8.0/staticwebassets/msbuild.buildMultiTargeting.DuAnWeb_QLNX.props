@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DuAnWeb_QLNX.props" />
+</Project>

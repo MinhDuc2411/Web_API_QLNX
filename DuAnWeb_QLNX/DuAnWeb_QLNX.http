@@ -1,0 +1,6 @@
+@DuAnWeb_QLNX_HostAddress = http://localhost:5075
+
+GET {{DuAnWeb_QLNX_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
