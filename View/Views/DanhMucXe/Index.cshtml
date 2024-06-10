@@ -4,18 +4,18 @@
     <h2 class="text-center mb-4">List of All Xe</h2>
 
     <div class="d-flex justify-content-between align-items-center mb-4">
-        <a class="btn btn-primary" asp-controller="DanhMucXe" asp-action="AddDanhMucXeDTO">
+        <a class="btn btn-primary" asp-controller="DanhMucXe" asp-action="Create">
             <i class="bi bi-plus-lg"></i> Add New Xe
         </a>
         <form class="d-flex" asp-controller="DanhMucXe" asp-action="Index" method="GET">
             <div class="input-group">
                 <select class="form-select" name="searchField">
-                    <option value="MaXe">Mã Xe</option>
-                    <!-- Add more search options if needed -->
+                    <option value="BienSo">Biển Số</option>
+                    <!-- Thêm các tùy chọn tìm kiếm khác nếu cần -->
                 </select>
-                <input type="text" class="form-control" name="searchValue" placeholder="Enter search value" />
+                <input type="text" class="form-control" id="id" name="id" placeholder="Nhập giá trị tìm kiếm" />
                 <button type="submit" class="btn btn-secondary">
-                    <i class="bi bi-search"></i> Search
+                    <i class="bi bi-search"></i> Tìm kiếm
                 </button>
             </div>
         </form>
@@ -45,13 +45,13 @@
                         <td>@item.GiaThue</td>
                         <td>@item.TrangThai</td>
                         <td>
-                            <a class="btn btn-info btn-sm" asp-controller="DanhMucXe" asp-action="ListDanhMucXeDTO" asp-route-id="@item.MaXe">
+                            <a class="btn btn-info btn-sm" asp-controller="DanhMucXe" asp-action="Details" asp-route-id="@item.MaXe">
                                 <i class="bi bi-eye"></i> Detail
                             </a>
-                            <a class="btn btn-warning btn-sm" asp-controller="DanhMucXe" asp-action="EditDanhMucXe" asp-route-id="@item.MaXe">
+                            <a class="btn btn-warning btn-sm" asp-controller="DanhMucXe" asp-action="Edit" asp-route-id="@item.MaXe">
                                 <i class="bi bi-pencil"></i> Edit
                             </a>
-                            <a class="btn btn-danger btn-sm" asp-controller="DanhMucXe" asp-action="DeleteDanhMucXe" asp-route-id="@item.MaXe">
+                            <a class="btn btn-danger btn-sm" asp-controller="DanhMucXe" asp-action="Delete" asp-route-id="@item.MaXe">
                                 <i class="bi bi-trash"></i> Delete
                             </a>
                         </td>

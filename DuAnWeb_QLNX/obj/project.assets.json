@@ -1619,7 +1619,7 @@
           }
         }
       },
-      "System.Text.Json/8.0.0": {
+      "System.Text.Json/8.0.3": {
         "type": "package",
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
@@ -1696,7 +1696,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.5",
           "Microsoft.IdentityModel.JsonWebTokens": "7.6.0",
           "Swashbuckle.AspNetCore": "6.4.0",
-          "System.IdentityModel.Tokens.Jwt": "7.6.0"
+          "System.IdentityModel.Tokens.Jwt": "7.6.0",
+          "System.Text.Json": "8.0.3"
         },
         "compile": {
           "bin/placeholder/DATA_DuAn.dll": {}
@@ -4457,10 +4458,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/8.0.0": {
-      "sha512": "OdrZO2WjkiEG6ajEFRABTRCi/wuXQPxeV6g8xvUJqdxMvvuCCEk86zPla8UiIQJz3durtUEbNyY/3lIhS0yZvQ==",
+    "System.Text.Json/8.0.3": {
+      "sha512": "hpagS9joOwv6efWfrMmV9MjQXpiXZH72PgN067Ysfr6AWMSD1/1hEcvh/U5mUpPLezEWsOJSuVrmqDIVD958iA==",
       "type": "package",
-      "path": "system.text.json/8.0.0",
+      "path": "system.text.json/8.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4525,7 +4526,7 @@
         "lib/net8.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.8.0.0.nupkg.sha512",
+        "system.text.json.8.0.3.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -4635,7 +4636,8 @@
       "Microsoft.IdentityModel.JsonWebTokens >= 7.6.0",
       "Newtonsoft.Json >= 13.0.3",
       "Swashbuckle.AspNetCore >= 6.4.0",
-      "System.IdentityModel.Tokens.Jwt >= 7.6.0"
+      "System.IdentityModel.Tokens.Jwt >= 7.6.0",
+      "System.Text.Json >= 8.0.3"
     ]
   },
   "packageFolders": {
@@ -4732,6 +4734,10 @@
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
             "version": "[7.6.0, )"
+          },
+          "System.Text.Json": {
+            "target": "Package",
+            "version": "[8.0.3, )"
           }
         },
         "imports": [

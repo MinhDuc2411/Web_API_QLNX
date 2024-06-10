@@ -2,7 +2,6 @@
 {
     public class AddDanhMucXeDTO
     {
-        public int MaXe { get; set; }
         public string? BienSo { get; set; }
         public string? HangXe { get; set; }
         public string? MauSac { get; set; }

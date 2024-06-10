@@ -18,17 +18,35 @@ namespace DuAnWeb_QLNX.Controllers
         }
 
         [HttpGet("GetAll")]
-        public IActionResult GetAll()
+        public IActionResult GetAll([FromQuery] string? id)
         {
-                 var xes = idanhMucXeRepository.GetDanhMucXe();
-                 return Ok(xes);
-           
+            try
+            {
+                if (!string.IsNullOrEmpty(id))
+                {
+                    var getId = idanhMucXeRepository.GetBienSo(id);
+                    if (getId == null)
+                    {
+                        return NotFound();
+                    }
+                    return Ok(getId);
+                }
+                else
+                {
+                    var xes = idanhMucXeRepository.GetDanhMucXe();
+                    return Ok(xes);
+                }
+            }
+            catch
+            {
+                return BadRequest();
+            }
         }
-        [HttpGet("Get-By-Id")]
-        public IActionResult GetBienso(int id)
+        [HttpGet("Get-By-ID")]
+        public IActionResult Get(int id) 
         {
-            var getId = idanhMucXeRepository.GetDanhMucXe(id);
-            return Ok(getId);
+            var getid = idanhMucXeRepository.GetMaXe(id);
+            return Ok(getid);
         }
         [HttpPost("add")]
         public IActionResult Post([FromBody]AddDanhMucXeDTO danhmucxe)

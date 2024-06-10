@@ -27,46 +27,6 @@ namespace DuAnWeb_QLNX.Repository.DanhMucXe
             }).ToList();
             return allDanhMucXe;
         }
-
-        public DanhMucXeDTO GetDanhMucXe(int id)
-        {
-            var xe = _context.DanhMucXe.Find(id);
-            if (xe == null)
-            {
-                return null;
-            }
-
-            return new DanhMucXeDTO()
-            {
-                MaXe = xe.MaXe,
-                BienSo = xe.BienSo,
-                HangXe = xe.HangXe,
-                MauSac = xe.MauSac,
-                GiaThue = xe.GiaThue,
-                TrangThai = xe.TrangThai
-            };
-
-        }
-
-        public DanhMucXeDTO GetBienSo(string Bienso)
-        {
-            var xe = _context.DanhMucXe.FirstOrDefault(x=>x.BienSo.Contains(Bienso));
-            if (xe == null)
-            {
-                return null;
-            }
-            
-            return new DanhMucXeDTO()
-            {
-                MaXe = xe.MaXe,
-                BienSo = xe.BienSo,
-                HangXe = xe.HangXe,
-                MauSac = xe.MauSac,
-                GiaThue = xe.GiaThue,
-                TrangThai = xe.TrangThai
-            };
-        } 
-
         public AddDanhMucXeDTO AddDanhMucXe(AddDanhMucXeDTO danhmucxe)
         {
             var DanhMucXeDomain = new DATA_DuAn.Models.DanhMucXe()
@@ -84,12 +44,7 @@ namespace DuAnWeb_QLNX.Repository.DanhMucXe
 
         public AddDanhMucXeDTO PutDanhMucXe(AddDanhMucXeDTO addDanhMucXe, int id)
         {
-            var xe = _context.DanhMucXe.Find(id);
-            if (xe == null)
-            {
-                return null;
-            }
-
+            var xe = _context.DanhMucXe.FirstOrDefault(x=>x.MaXe == id);
             xe.BienSo = addDanhMucXe.BienSo;
             xe.HangXe = addDanhMucXe.HangXe;
             xe.MauSac = addDanhMucXe.MauSac;
@@ -115,6 +70,35 @@ namespace DuAnWeb_QLNX.Repository.DanhMucXe
             return xe;
         }
 
-        
+        List<DanhMucXeDTO> IDanhMucXeRepository.GetBienSo(string BienSo)
+        {
+
+            var xe = _context.DanhMucXe.Where(x => x.BienSo.ToLower().Contains(BienSo.ToLower()));
+            var xeid = xe.Select(x => new DanhMucXeDTO()
+            {
+                MaXe = x.MaXe,
+                BienSo = x.BienSo,
+                HangXe = x.HangXe,
+                MauSac = x.MauSac,
+                GiaThue = x.GiaThue,
+                TrangThai = x.TrangThai,
+            }).ToList();
+            return xeid;
+        }
+
+        public DanhMucXeDTO GetMaXe(int id)
+        {
+            var xe = _context.DanhMucXe.Where(x => x.MaXe == id);
+            var xeid = xe.Select(x => new DanhMucXeDTO()
+            {
+                MaXe = x.MaXe,
+                BienSo = x.BienSo,
+                HangXe = x.HangXe,
+                MauSac = x.MauSac,
+                GiaThue = x.GiaThue,
+                TrangThai = x.TrangThai,
+            }).FirstOrDefault();
+            return xeid;
+        }
     }
 }
