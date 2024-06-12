@@ -3,7 +3,7 @@ using DATA_DuAn.DTO;
 using DATA_DuAn.Data;
 using DATA_DuAn.Models;
 using Microsoft.EntityFrameworkCore;
-using DATA_DuAn.DTO.KhachHangDTO;
+using DATA_DuAn.DTO.KhachHangDto;
 
 
 namespace DuAnWeb_QLNX.Repository.KhachHangRepository

@@ -1,5 +1,6 @@
 ﻿using DATA_DuAn.Data;
 using DuAnWeb_QLNX.Repository;
+using DuAnWeb_QLNX.Repository.LoginRepository;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -10,58 +11,23 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<IApiService, ApiService>();
+builder.Services.AddScoped<ITokenRepository, TokenRepository>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();
 builder.Services.AddSession();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddLogging();
-builder.Services.AddScoped<ITokenRepository, TokenRepository>();
-builder.Services.AddDbContext<CarRentalDbContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("Conn")));
-builder.Services.AddDbContext<CarRentalAuthDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("CarRentalAuthDbConnection")));
-builder.Services.AddIdentityCore<IdentityUser>()
-    .AddRoles<IdentityRole>()
-    .AddTokenProvider<DataProtectorTokenProvider<IdentityUser>>("DanhMucXe")
-    .AddEntityFrameworkStores<CarRentalAuthDbContext>()
-    .AddDefaultTokenProviders();
-builder.Services.AddDistributedMemoryCache(); // Để sử dụng in-memory cache để lưu trữ session
-builder.Services.AddSession(options =>
+builder.Services.AddAuthorization();
+builder.Services.AddEndpointsApiExplorer();
+
+// Add Jwt authentication
+builder.Services.AddAuthentication(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(30); // Thời gian tồn tại của session
-    options.Cookie.HttpOnly = true; // Chỉ truy cập session qua HTTP
-    options.Cookie.IsEssential = true; // Đảm bảo session cookie được giữ lại
-});
-builder.Services.AddSwaggerGen(options =>
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
 {
-    options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
-    {
-        Title = "DanhMucXe API",
-        Version = "v1"
-    });
-    options.AddSecurityDefinition(JwtBearerDefaults.AuthenticationScheme, new OpenApiSecurityScheme
-    {
-        Name = "Authorization",
-        In = ParameterLocation.Header,
-        Type = SecuritySchemeType.ApiKey,
-        Scheme = JwtBearerDefaults.AuthenticationScheme
-    });
-    options.AddSecurityRequirement(new OpenApiSecurityRequirement
-                {
-                    {new OpenApiSecurityScheme {
-                            Reference = new OpenApiReference {
-                                Type = ReferenceType.SecurityScheme,
-                                Id = JwtBearerDefaults.AuthenticationScheme
-                            },
-                            Scheme = "Oauth2",
-                            Name = JwtBearerDefaults.AuthenticationScheme,
-                            In = ParameterLocation.Header
-                        },
-                        new List<string>()
-                    }
-    });
-});
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
     options.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuer = true,
@@ -71,38 +37,40 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
         ValidIssuer = builder.Configuration["Jwt:Issuer"],
         ValidAudience = builder.Configuration["Jwt:Audience"],
         ClockSkew = TimeSpan.Zero,
-        IssuerSigningKey = new SymmetricSecurityKey(
-            Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
-    });
-builder.Services.Configure<IdentityOptions>(options =>
-{
-    options.Password.RequireDigit = false;
-    options.Password.RequireLowercase = false;
-    options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequireUppercase = false;
-    options.Password.RequiredLength = 6;
-    options.Password.RequiredUniqueChars = 1;
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+    };
 });
+
+// Add database contexts
+builder.Services.AddDbContext<CarRentalDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Conn")));
+builder.Services.AddDbContext<CarRentalAuthDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("CarRentalAuthDbConnection")));
+
+// Add Identity services
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+              .AddEntityFrameworkStores<CarRentalAuthDbContext>()
+              .AddDefaultTokenProviders();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-app.UseSession();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+app.UseSession();
 
 app.UseRouting();
 
+// Ensure that authentication comes before authorization
 app.UseAuthentication();
-
 app.UseAuthorization();
 
+// Configure the HTTP request pipeline.
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=DanhMucXe}/{action=Index}/{id?}");

@@ -26,8 +26,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Asus\Desktop\LapTrinhWeB_2\DAWeb_QLNX\DuAnWeb_QLNX\View
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Asus/Desktop/LapTrinhWeB_2/DAWeb_QLNX/DuAnWeb_QLNX/View/Views/Account/PageLogin.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQYWdlTG9naW4uY3NodG1s
+[C:/Users/Asus/Desktop/LapTrinhWeB_2/DAWeb_QLNX/DuAnWeb_QLNX/View/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/LapTrinhWeB_2/DAWeb_QLNX/DuAnWeb_QLNX/View/Views/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Asus/Desktop/LapTrinhWeB_2/DAWeb_QLNX/DuAnWeb_QLNX/View/Views/Account/Register.cshtml]
@@ -50,6 +54,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaE11Y1hlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Asus/Desktop/LapTrinhWeB_2/DAWeb_QLNX/DuAnWeb_QLNX/View/Views/HopDongThue/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1RodWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Asus/Desktop/LapTrinhWeB_2/DAWeb_QLNX/DuAnWeb_QLNX/View/Views/KhachHang/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,6 +68,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Asus/Desktop/LapTrinhWeB_2/DAWeb_QLNX/DuAnWeb_QLNX/View/Views/KhachHang/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/LapTrinhWeB_2/DAWeb_QLNX/DuAnWeb_QLNX/View/Views/NhanVien/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/LapTrinhWeB_2/DAWeb_QLNX/DuAnWeb_QLNX/View/Views/NhanVien/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/LapTrinhWeB_2/DAWeb_QLNX/DuAnWeb_QLNX/View/Views/NhanVien/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/LapTrinhWeB_2/DAWeb_QLNX/DuAnWeb_QLNX/View/Views/NhanVien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Asus/Desktop/LapTrinhWeB_2/DAWeb_QLNX/DuAnWeb_QLNX/View/Views/Shared/Error.cshtml]

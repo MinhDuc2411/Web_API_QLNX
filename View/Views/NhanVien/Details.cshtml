@@ -1,0 +1,39 @@
+﻿@model DATA_DuAn.DTO.NhanVienDto.NhanVienDTO
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container mt-4">
+    <h1 class="mb-4">@ViewData["Title"]</h1>
+
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">Chi tiết Nhân Viên</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Mã Nhân Viên</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.MaNV)</dd>
+                
+                <dt class="col-sm-3">Tên Nhân Viên</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.TenNV)</dd>
+                
+                <dt class="col-sm-3">Chức Vụ</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.ChucVu)</dd>
+                
+                <dt class="col-sm-3">Số Điện Thoại</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.SoDT)</dd>
+                
+                <dt class="col-sm-3">Email</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Email)</dd>
+            </dl>
+        </div>
+        <div class="card-footer text-right">
+            <a href="@Url.Action("Edit", "NhanVien", new { id = Model.MaNV })" class="btn btn-primary">Edit</a>
+            <a href="@Url.Action("Index", "NhanVien")" class="btn btn-secondary">Back to List</a>
+        </div>
+    </div>
+</div>

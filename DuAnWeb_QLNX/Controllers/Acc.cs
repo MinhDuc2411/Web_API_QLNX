@@ -8,12 +8,12 @@ namespace DuAnWeb_QLNX.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class AccountController : ControllerBase
+    public class Acc : ControllerBase
     {
         private readonly UserManager<IdentityUser> _userManager;
         private readonly ITokenRepository _tokenRepository;
 
-        public AccountController(ITokenRepository tokenRepository, UserManager<IdentityUser> userManager)
+        public Acc(ITokenRepository tokenRepository, UserManager<IdentityUser> userManager)
         {
             _userManager = userManager;
             _tokenRepository = tokenRepository;

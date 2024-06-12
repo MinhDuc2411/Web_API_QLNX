@@ -15,8 +15,11 @@ namespace DATA_DuAn.Models
         public decimal GiaThue { get; set; }
         public string? TrangThai { get; set; }
 
+        public string? URl { get; set; }
+
         // Một xe có thể có nhiều hợp đồng thuê
         public ICollection<HopDongThue> HopDongThues { get; set; }
+ 
 
         public object Select(Func<object, DanhMucXeDTO> value)
         {

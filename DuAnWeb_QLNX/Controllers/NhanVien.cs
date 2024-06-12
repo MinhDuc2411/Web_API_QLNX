@@ -1,4 +1,4 @@
-﻿using DATA_DuAn.DTO.NhanVienDTO;
+﻿using DATA_DuAn.DTO.NhanVienDto;
 using DuAnWeb_QLNX.Repository.NhanVienRepository;
 using Microsoft.AspNetCore.Mvc;
 
@@ -44,14 +44,14 @@ namespace DuAnWeb_QLNX.Controllers
 			else return BadRequest(ModelState);
 		}
 
-		[HttpPut("{id}")]
+		[HttpPut("update-NhanVien")]
 		public IActionResult UpdateNhanVienById(int id, AddNhanVienRequestDTO nhanVien)
 		{
 			var updateBook = _nhanVienRepository.UpdateNhanVienById(id, nhanVien);
 			return Ok(updateBook);
 		}
 
-		[HttpDelete("{id}")]
+		[HttpDelete("Detele-NhanVien")]
 		public IActionResult DeleteNhanVienById(int id)
 		{
 			var deleteBook = _nhanVienRepository.DeleteNhanVienById(id);

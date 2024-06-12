@@ -1,32 +1,118 @@
-﻿@model DATA_DuAn.DTO.RegisterRequestDTO
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model DATA_DuAn.DTO.RegisterRequestDTO;
 
-@{
-    ViewBag.Title = "Register";
-}
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
-<h2>Register</h2>
-
-<form asp-action="Register" method="post">
-    <div class="form-group">
-        <label asp-for="Username"></label>
-        <input asp-for="Username" class="form-control" />
-        <span asp-validation-for="Username" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Password"></label>
-        <input asp-for="Password" class="form-control" type="password" />
-        <span asp-validation-for="Password" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Roles"></label>
-        <input asp-for="Roles" class="form-control" />
-        <span asp-validation-for="Roles" class="text-danger"></span>
-    </div>
-    <button type="submit" class="btn btn-primary">Register</button>
-</form>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+<style>
+    .register-form {
+        max-width: 400px;
+        margin: 50px auto;
+        background-color: #343a40;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
-}
+
+        .register-form .form-group label {
+            color: white;
+            font-weight: bold;
+        }
+
+        .register-form .form-check-label {
+            color: white;
+        }
+
+        .register-form .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+            .register-form .btn-primary:hover {
+                background-color: #0056b3;
+                border-color: #0056b3;
+            }
+
+        .register-form .login-link {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+            .register-form .login-link:hover {
+                text-decoration: underline;
+            }
+</style>
+
+<div class="register-form">
+    <form asp-controller="Account" asp-action="Register" method="post">
+        <div class="form-group">
+            <label asp-for="Username"></label>
+            <input asp-for="Username" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Password"></label>
+            <input id="floatingPassword" asp-for="Password" type="password" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="confirmPassword" class="text-white">Confirm Password</label>
+            <input id="confirmPassword" type="password" class="form-control" />
+            <span id="passwordMatchError" class="text-danger" style="display:none;">Passwords do not match</span>
+        </div>
+        <div class="form-group">
+            @foreach (var role in ViewBag.Roles)
+            {
+                <div class="form-check form-check-inline">
+                    @if (@role == "Read")
+                    {
+                        <input type="hidden" name="Roles" value="@role" />
+                    }
+                    else
+                    {
+                        <input class="form-check-input" type="checkbox" name="Roles" value="@role" id="role-@role" />
+                        <label class="form-check-label text-white" for="role-@role">Admin</label>
+                    }
+                </div>
+            }
+        </div>
+        <div class="form-check mt-2">
+            <input class="form-check-input" type="checkbox" id="showPassword" onclick="togglePassword()">
+            <label class="form-check-label" for="showPassword">Show Password</label>
+        </div>
+        <div class="d-flex flex-column mt-4">
+            <button type="submit" class="btn btn-primary text-white mb-3" onclick="return validatePasswordMatch()">Register</button>
+            <div class="text-center">
+                <label class="text-white d-block mb-2">Already have an account?</label>
+                <a class="login-link" asp-controller="Account" asp-action="Login">Login</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    function togglePassword() {
+        var passwordField = document.getElementById("floatingPassword");
+        var confirmPasswordField = document.getElementById("confirmPassword");
+        var showPasswordCheckbox = document.getElementById("showPassword");
+
+        if (showPasswordCheckbox.checked) {
+            passwordField.type = "text";
+            confirmPasswordField.type = "text";
+        } else {
+            passwordField.type = "password";
+            confirmPasswordField.type = "password";
+        }
+    }
+
+    function validatePasswordMatch() {
+        var password = document.getElementById("floatingPassword").value;
+        var confirmPassword = document.getElementById("confirmPassword").value;
+        var passwordMatchError = document.getElementById("passwordMatchError");
+
+        if (password !== confirmPassword) {
+            passwordMatchError.style.display = "block";
+            return false; // Prevent form submission
+        } else {
+            passwordMatchError.style.display = "none";
+            return true; // Allow form submission
+        }
+    }
+</script>

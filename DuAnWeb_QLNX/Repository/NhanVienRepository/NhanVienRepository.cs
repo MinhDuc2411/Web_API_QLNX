@@ -1,7 +1,7 @@
 ﻿using DATA_DuAn.Data;
 using DATA_DuAn.DTO;
-using DATA_DuAn.DTO.KhachHangDTO;
-using DATA_DuAn.DTO.NhanVienDTO;
+using DATA_DuAn.DTO.KhachHangDto;
+using DATA_DuAn.DTO.NhanVienDto;
 using DATA_DuAn.Models;
 
 namespace DuAnWeb_QLNX.Repository.NhanVienRepository

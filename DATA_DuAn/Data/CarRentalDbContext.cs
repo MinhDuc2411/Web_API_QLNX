@@ -11,6 +11,7 @@ namespace DATA_DuAn.Data
         public DbSet<KhachHang> KhachHang { get; set; }
         public DbSet<NhanVien>  NhanVien { get; set; }
         public DbSet<ThanhToan> ThanhToan { get; set; }
+        public DbSet<Image> Images { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Thiết lập các mối quan hệ nếu cần thiết
@@ -32,7 +33,7 @@ namespace DATA_DuAn.Data
             modelBuilder.Entity<ThanhToan>()
                 .HasOne(t => t.HopDongThue)
                 .WithMany(h => h.ThanhToans)
-                .HasForeignKey(t => t.MaHopDong);
+                .HasForeignKey(t => t.MaHopDong); 
         }
     }
     

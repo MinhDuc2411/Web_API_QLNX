@@ -3,6 +3,7 @@ using DuAnWeb_QLNX.Repository;
 using DuAnWeb_QLNX.Repository.DanhMucXe;
 using DuAnWeb_QLNX.Repository.DanhMucXeRepository;
 using DuAnWeb_QLNX.Repository.HopDongThueRepository;
+using DuAnWeb_QLNX.Repository.ImageRepository;
 using DuAnWeb_QLNX.Repository.KhachHangRepository;
 using DuAnWeb_QLNX.Repository.NhanVienRepository;
 using DuAnWeb_QLNX.Repository.ThanhToanRepository;
@@ -37,6 +38,7 @@ builder.Services.AddScoped<IKhachHangRepository, KhachHangRepository>();
 builder.Services.AddScoped<INhanVienRepository, NhanVienRepository>();
 builder.Services.AddScoped<IThanhToanRepository, ThanhToanRepository>();
 builder.Services.AddScoped<ITokenRepository, TokenRepository>();
+builder.Services.AddScoped<IImageRepository, LocalImageRepository>();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 .AddJwtBearer(option =>
 {

@@ -3,6 +3,82 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\controllers\\hopdongthue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\controllers\\hopdongthue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\controllers\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\controllers\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\repository\\hopdongthuerepository\\ihopdongthuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\repository\\hopdongthuerepository\\ihopdongthuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\repository\\hopdongthuerepository\\hopdongthuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\repository\\hopdongthuerepository\\hopdongthuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\dto\\hopdongdto\\hopdongthuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\dto\\hopdongdto\\hopdongthuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\dto\\hopdongdto\\addhopdongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\dto\\hopdongdto\\addhopdongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\controllers\\hopdongthue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\controllers\\hopdongthue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\controllers\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\controllers\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\controllers\\danhmucxecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\controllers\\danhmucxecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\controllers\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\controllers\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\controllers\\quanlydanhmucxe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\controllers\\quanlydanhmucxe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\views\\nhanvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\views\\nhanvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\controllers\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\controllers\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\views\\nhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\views\\nhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\dto\\nhanviendto\\nhanviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\dto\\nhanviendto\\nhanviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\dto\\nhanviendto\\addnhanvienrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\dto\\nhanviendto\\addnhanvienrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\views\\nhanvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\views\\nhanvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\views\\nhanvien\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\views\\nhanvien\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\views\\danhmucxe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\views\\danhmucxe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,52 +87,152 @@
       "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\views\\danhmucxe\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\views\\khachhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\views\\khachhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\repository\\thanhtoanrepository\\thanhtoanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\repository\\thanhtoanrepository\\thanhtoanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\repository\\nhanvienrepository\\nhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\repository\\nhanvienrepository\\nhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\repository\\nhanvienrepository\\inhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\repository\\nhanvienrepository\\inhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\views\\danhmucxe\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\views\\danhmucxe\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\repository\\danhmucxerepository\\danhmucxerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\repository\\danhmucxerepository\\danhmucxerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\data\\carrentaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\data\\carrentaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\views\\danhmucxe\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\views\\danhmucxe\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\dto\\danhmucxedto\\adddanhmucxedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\dto\\danhmucxedto\\adddanhmucxedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\models\\danhmucxe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\models\\danhmucxe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\dto\\danhmucxedto\\danhmucxedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\dto\\danhmucxedto\\danhmucxedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\views\\khachhang\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\views\\khachhang\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\data_duan.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\data_duan.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\views\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\views\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\duanweb_qlnx.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\duanweb_qlnx.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\view.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\view.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\repository\\loginrepository\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\repository\\loginrepository\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\dto\\logindto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\dto\\logindto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\controllers\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\controllers\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\controllers\\danhmucxecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\controllers\\danhmucxecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\repository\\thanhtoanrepository\\ithanhtoanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\repository\\thanhtoanrepository\\ithanhtoanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\dto\\khachhangdto\\khachhangdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\dto\\khachhangdto\\khachhangdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\repository\\khachhangrepository\\khachhangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\repository\\khachhangrepository\\khachhangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\views\\khachhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\views\\khachhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\repository\\khachhangrepository\\ikhachhangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\repository\\khachhangrepository\\ikhachhangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\views\\khachhang\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\views\\khachhang\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\view\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A581A8D-4CEE-4949-836D-54E11E0633E8}|View\\View.csproj|solutionrelative:view\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\repository\\imagerepository\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\repository\\imagerepository\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\migrations\\20240611043052_image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\migrations\\20240611043052_image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\migrations\\20240522153542_initialdatabasemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\migrations\\20240522153542_initialdatabasemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\migrations\\20240529010049_update name table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\migrations\\20240529010049_update name table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\repository\\loginrepository\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\repository\\loginrepository\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\repository\\loginrepository\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\repository\\loginrepository\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\repository\\loginrepository\\iapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\repository\\loginrepository\\iapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\duanweb_qlnx\\repository\\loginrepository\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F8EAC2-7AF8-49F7-AE5B-34EB6BC1A8A0}|DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj|solutionrelative:duanweb_qlnx\\repository\\loginrepository\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\dto\\logindto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\dto\\logindto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\migrations\\20240611043510_addmodelimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\migrations\\20240611043510_addmodelimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|c:\\users\\asus\\desktop\\laptrinhweb_2\\daweb_qlnx\\duanweb_qlnx\\data_duan\\migrations\\20240612075041_addurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52DEE73-EBFD-4936-BE28-812C3438573B}|DATA_DuAn\\DATA_DuAn.csproj|solutionrelative:data_duan\\migrations\\20240612075041_addurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,20 +242,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "KhachHangRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\KhachHangRepository\\KhachHangRepository.cs",
-              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Repository\\KhachHangRepository\\KhachHangRepository.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\KhachHangRepository\\KhachHangRepository.cs",
-              "RelativeToolTip": "DuAnWeb_QLNX\\Repository\\KhachHangRepository\\KhachHangRepository.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T03:47:02.622Z",
-              "IsPinned": true
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
             },
             {
               "$type": "Bookmark",
@@ -87,136 +254,172 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\DanhMucXe\\Index.cshtml",
-              "RelativeDocumentMoniker": "View\\Views\\DanhMucXe\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\DanhMucXe\\Index.cshtml",
-              "RelativeToolTip": "View\\Views\\DanhMucXe\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T02:23:33.191Z",
+              "DocumentIndex": 3,
+              "Title": "IHopDongThueRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\HopDongThueRepository\\IHopDongThueRepository.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Repository\\HopDongThueRepository\\IHopDongThueRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\HopDongThueRepository\\IHopDongThueRepository.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Repository\\HopDongThueRepository\\IHopDongThueRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:49:02.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HopDongThueRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\HopDongThueRepository\\HopDongThueRepository.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Repository\\HopDongThueRepository\\HopDongThueRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\HopDongThueRepository\\HopDongThueRepository.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Repository\\HopDongThueRepository\\HopDongThueRepository.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAowHIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:48:51.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HopDongThueDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\HopDongDto\\HopDongThueDTO.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\DTO\\HopDongDto\\HopDongThueDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\HopDongDto\\HopDongThueDTO.cs",
+              "RelativeToolTip": "DATA_DuAn\\DTO\\HopDongDto\\HopDongThueDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:48:34.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HopDongThue.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Controllers\\HopDongThue.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Controllers\\HopDongThue.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Controllers\\HopDongThue.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Controllers\\HopDongThue.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:09:18.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\DanhMucXe\\Create.cshtml",
-              "RelativeDocumentMoniker": "View\\Views\\DanhMucXe\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\DanhMucXe\\Create.cshtml",
-              "RelativeToolTip": "View\\Views\\DanhMucXe\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T02:23:31.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "View.csproj",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\View.csproj",
-              "RelativeDocumentMoniker": "View\\View.csproj",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\View.csproj",
-              "RelativeToolTip": "View\\View.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-10T02:21:50.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DuAnWeb_QLNX.csproj",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj",
-              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj",
-              "RelativeToolTip": "DuAnWeb_QLNX\\DuAnWeb_QLNX.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-10T02:21:41.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DATA_DuAn.csproj",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DATA_DuAn.csproj",
-              "RelativeDocumentMoniker": "DATA_DuAn\\DATA_DuAn.csproj",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DATA_DuAn.csproj",
-              "RelativeToolTip": "DATA_DuAn\\DATA_DuAn.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-10T02:21:40.765Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ITokenRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\LoginRepository\\ITokenRepository.cs",
-              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Repository\\LoginRepository\\ITokenRepository.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\LoginRepository\\ITokenRepository.cs",
-              "RelativeToolTip": "DuAnWeb_QLNX\\Repository\\LoginRepository\\ITokenRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABEAAAA",
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Controllers\\KhachHang.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Controllers\\KhachHang.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Controllers\\KhachHang.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Controllers\\KhachHang.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA6wEAAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T02:12:13.586Z"
+              "WhenOpened": "2024-06-12T12:07:38.836Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\KhachHang\\Edit.cshtml",
-              "RelativeDocumentMoniker": "View\\Views\\KhachHang\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\KhachHang\\Edit.cshtml",
-              "RelativeToolTip": "View\\Views\\KhachHang\\Edit.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABIAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T04:39:43.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\DanhMucXe\\Edit.cshtml",
-              "RelativeDocumentMoniker": "View\\Views\\DanhMucXe\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\DanhMucXe\\Edit.cshtml",
-              "RelativeToolTip": "View\\Views\\DanhMucXe\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T04:23:41.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\KhachHang\\Index.cshtml",
-              "RelativeDocumentMoniker": "View\\Views\\KhachHang\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\KhachHang\\Index.cshtml",
-              "RelativeToolTip": "View\\Views\\KhachHang\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T04:05:02.628Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "View\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "View\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAB1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T03:59:38.884Z"
+              "WhenOpened": "2024-06-12T11:50:06.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddHopDongDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\HopDongDto\\AddHopDongDTO.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\DTO\\HopDongDto\\AddHopDongDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\HopDongDto\\AddHopDongDTO.cs",
+              "RelativeToolTip": "DATA_DuAn\\DTO\\HopDongDto\\AddHopDongDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:48:33.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Controllers\\NhanVien.cs",
+              "RelativeDocumentMoniker": "View\\Controllers\\NhanVien.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Controllers\\NhanVien.cs",
+              "RelativeToolTip": "View\\Controllers\\NhanVien.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAswHMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T01:03:38.653Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\KhachHang\\Details.cshtml",
-              "RelativeDocumentMoniker": "View\\Views\\KhachHang\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\KhachHang\\Details.cshtml",
-              "RelativeToolTip": "View\\Views\\KhachHang\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAiAAAA",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\NhanVien\\Edit.cshtml",
+              "RelativeDocumentMoniker": "View\\Views\\NhanVien\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\NhanVien\\Edit.cshtml",
+              "RelativeToolTip": "View\\Views\\NhanVien\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T03:59:24.096Z"
+              "WhenOpened": "2024-06-12T12:38:18.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Controllers\\KhachHang.cs",
+              "RelativeDocumentMoniker": "View\\Controllers\\KhachHang.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Controllers\\KhachHang.cs",
+              "RelativeToolTip": "View\\Controllers\\KhachHang.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwDQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:14:23.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HopDongThue.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Controllers\\HopDongThue.cs",
+              "RelativeDocumentMoniker": "View\\Controllers\\HopDongThue.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Controllers\\HopDongThue.cs",
+              "RelativeToolTip": "View\\Controllers\\HopDongThue.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T11:46:37.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Controllers\\NhanVien.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Controllers\\NhanVien.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Controllers\\NhanVien.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Controllers\\NhanVien.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:06:52.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QuanLyDanhMucXe.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Controllers\\QuanLyDanhMucXe.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Controllers\\QuanLyDanhMucXe.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Controllers\\QuanLyDanhMucXe.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Controllers\\QuanLyDanhMucXe.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwDoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:51:29.24Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -226,21 +429,553 @@
               "RelativeDocumentMoniker": "View\\Controllers\\DanhMucXeController.cs",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Controllers\\DanhMucXeController.cs",
               "RelativeToolTip": "View\\Controllers\\DanhMucXeController.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAowBcAAABhAAAA",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAwwHAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T03:42:24.857Z"
+              "WhenOpened": "2024-06-12T07:55:12.293Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "KhachHang.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Controllers\\KhachHang.cs",
-              "RelativeDocumentMoniker": "View\\Controllers\\KhachHang.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Controllers\\KhachHang.cs",
-              "RelativeToolTip": "View\\Controllers\\KhachHang.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAA3wFIAAAAyAAAA",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\NhanVien\\Index.cshtml",
+              "RelativeDocumentMoniker": "View\\Views\\NhanVien\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\NhanVien\\Index.cshtml",
+              "RelativeToolTip": "View\\Views\\NhanVien\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T12:02:14.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NhanVienDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\NhanVienDto\\NhanVienDTO.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\DTO\\NhanVienDto\\NhanVienDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\NhanVienDto\\NhanVienDTO.cs",
+              "RelativeToolTip": "DATA_DuAn\\DTO\\NhanVienDto\\NhanVienDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T03:42:17.75Z"
+              "WhenOpened": "2024-06-12T12:06:30.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddNhanVienRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\NhanVienDto\\AddNhanVienRequestDTO.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\DTO\\NhanVienDto\\AddNhanVienRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\NhanVienDto\\AddNhanVienRequestDTO.cs",
+              "RelativeToolTip": "DATA_DuAn\\DTO\\NhanVienDto\\AddNhanVienRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:06:24.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\NhanVien\\Create.cshtml",
+              "RelativeDocumentMoniker": "View\\Views\\NhanVien\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\NhanVien\\Create.cshtml",
+              "RelativeToolTip": "View\\Views\\NhanVien\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T12:24:44.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\NhanVien\\Details.cshtml",
+              "RelativeDocumentMoniker": "View\\Views\\NhanVien\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\NhanVien\\Details.cshtml",
+              "RelativeToolTip": "View\\Views\\NhanVien\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T12:20:40.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\DanhMucXe\\Index.cshtml",
+              "RelativeDocumentMoniker": "View\\Views\\DanhMucXe\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\DanhMucXe\\Index.cshtml",
+              "RelativeToolTip": "View\\Views\\DanhMucXe\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T12:11:35.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\KhachHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "View\\Views\\KhachHang\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\KhachHang\\Index.cshtml",
+              "RelativeToolTip": "View\\Views\\KhachHang\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T11:51:50.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ThanhToanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\ThanhToanRepository\\ThanhToanRepository.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Repository\\ThanhToanRepository\\ThanhToanRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\ThanhToanRepository\\ThanhToanRepository.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Repository\\ThanhToanRepository\\ThanhToanRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T01:44:40.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NhanVienRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\NhanVienRepository\\NhanVienRepository.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Repository\\NhanVienRepository\\NhanVienRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\NhanVienRepository\\NhanVienRepository.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Repository\\NhanVienRepository\\NhanVienRepository.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAkwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T06:11:30.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\DanhMucXe\\Edit.cshtml",
+              "RelativeDocumentMoniker": "View\\Views\\DanhMucXe\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\DanhMucXe\\Edit.cshtml",
+              "RelativeToolTip": "View\\Views\\DanhMucXe\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T06:07:00.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "INhanVienRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\NhanVienRepository\\INhanVienRepository.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Repository\\NhanVienRepository\\INhanVienRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\NhanVienRepository\\INhanVienRepository.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Repository\\NhanVienRepository\\INhanVienRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T06:11:39.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Program.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Program.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Program.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T15:57:24.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\DanhMucXe\\Create.cshtml",
+              "RelativeDocumentMoniker": "View\\Views\\DanhMucXe\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\DanhMucXe\\Create.cshtml",
+              "RelativeToolTip": "View\\Views\\DanhMucXe\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T07:57:07.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DanhMucXeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\DanhMucXeRepository\\DanhMucXeRepository.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Repository\\DanhMucXeRepository\\DanhMucXeRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\DanhMucXeRepository\\DanhMucXeRepository.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Repository\\DanhMucXeRepository\\DanhMucXeRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwGYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:51:46.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CarRentalDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Data\\CarRentalDbContext.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\Data\\CarRentalDbContext.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Data\\CarRentalDbContext.cs",
+              "RelativeToolTip": "DATA_DuAn\\Data\\CarRentalDbContext.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvwgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T03:34:46.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AddDanhMucXeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\DanhMucXeDto\\AddDanhMucXeDTO.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\DTO\\DanhMucXeDto\\AddDanhMucXeDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\DanhMucXeDto\\AddDanhMucXeDTO.cs",
+              "RelativeToolTip": "DATA_DuAn\\DTO\\DanhMucXeDto\\AddDanhMucXeDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:42:18.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\DanhMucXe\\Details.cshtml",
+              "RelativeDocumentMoniker": "View\\Views\\DanhMucXe\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\DanhMucXe\\Details.cshtml",
+              "RelativeToolTip": "View\\Views\\DanhMucXe\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T07:38:02.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DanhMucXeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\DanhMucXeDto\\DanhMucXeDTO.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\DTO\\DanhMucXeDto\\DanhMucXeDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\DanhMucXeDto\\DanhMucXeDTO.cs",
+              "RelativeToolTip": "DATA_DuAn\\DTO\\DanhMucXeDto\\DanhMucXeDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:42:48.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DanhMucXe.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Models\\DanhMucXe.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\Models\\DanhMucXe.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Models\\DanhMucXe.cs",
+              "RelativeToolTip": "DATA_DuAn\\Models\\DanhMucXe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:40:20.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20240612075041_addURL.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Migrations\\20240612075041_addURL.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\Migrations\\20240612075041_addURL.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Migrations\\20240612075041_addURL.cs",
+              "RelativeToolTip": "DATA_DuAn\\Migrations\\20240612075041_addURL.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:50:42.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "View\\Views\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\Account\\Logout.cshtml",
+              "RelativeToolTip": "View\\Views\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T07:34:24.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Models\\Image.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\Models\\Image.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Models\\Image.cs",
+              "RelativeToolTip": "DATA_DuAn\\Models\\Image.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T03:20:54.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "View\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "View\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T07:34:29.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RegisterRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\LoginDTO\\RegisterRequestDTO.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\DTO\\LoginDTO\\RegisterRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\LoginDTO\\RegisterRequestDTO.cs",
+              "RelativeToolTip": "DATA_DuAn\\DTO\\LoginDTO\\RegisterRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T06:39:15.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "View\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "View\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T06:32:12.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\KhachHang\\Edit.cshtml",
+              "RelativeDocumentMoniker": "View\\Views\\KhachHang\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Views\\KhachHang\\Edit.cshtml",
+              "RelativeToolTip": "View\\Views\\KhachHang\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T00:59:54.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "View\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\View\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "View\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAAAFQAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T15:20:06.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IThanhToanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\ThanhToanRepository\\IThanhToanRepository.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Repository\\ThanhToanRepository\\IThanhToanRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\ThanhToanRepository\\IThanhToanRepository.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Repository\\ThanhToanRepository\\IThanhToanRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T01:45:04.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "KhachHangDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\KhachHangDto\\KhachHangDTO.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\DTO\\KhachHangDto\\KhachHangDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\KhachHangDto\\KhachHangDTO.cs",
+              "RelativeToolTip": "DATA_DuAn\\DTO\\KhachHangDto\\KhachHangDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T05:25:30.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "KhachHangRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\KhachHangRepository\\KhachHangRepository.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Repository\\KhachHangRepository\\KhachHangRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\KhachHangRepository\\KhachHangRepository.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Repository\\KhachHangRepository\\KhachHangRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwAUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T06:11:20.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IKhachHangRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\KhachHangRepository\\IKhachHangRepository.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Repository\\KhachHangRepository\\IKhachHangRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\KhachHangRepository\\IKhachHangRepository.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Repository\\KhachHangRepository\\IKhachHangRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T06:11:09.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Controllers\\ImagesController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Controllers\\ImagesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:02:14.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20240611043510_addmodelImage.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Migrations\\20240611043510_addmodelImage.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\Migrations\\20240611043510_addmodelImage.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Migrations\\20240611043510_addmodelImage.cs",
+              "RelativeToolTip": "DATA_DuAn\\Migrations\\20240611043510_addmodelImage.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwB4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:35:10.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Program.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Program.cs",
+              "RelativeToolTip": "DATA_DuAn\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T03:52:38.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20240611043052_Image.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Migrations\\20240611043052_Image.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\Migrations\\20240611043052_Image.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Migrations\\20240611043052_Image.cs",
+              "RelativeToolTip": "DATA_DuAn\\Migrations\\20240611043052_Image.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:32:16.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\ImageRepository\\IImageRepository.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Repository\\ImageRepository\\IImageRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\ImageRepository\\IImageRepository.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Repository\\ImageRepository\\IImageRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T03:26:29.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20240522153542_InitialDatabaseMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Migrations\\20240522153542_InitialDatabaseMigration.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\Migrations\\20240522153542_InitialDatabaseMigration.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Migrations\\20240522153542_InitialDatabaseMigration.cs",
+              "RelativeToolTip": "DATA_DuAn\\Migrations\\20240522153542_InitialDatabaseMigration.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:23:05.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20240529010049_update name table.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Migrations\\20240529010049_update name table.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\Migrations\\20240529010049_update name table.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\Migrations\\20240529010049_update name table.cs",
+              "RelativeToolTip": "DATA_DuAn\\Migrations\\20240529010049_update name table.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:23:04.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\appsettings.json",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\appsettings.json",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\appsettings.json",
+              "RelativeToolTip": "DuAnWeb_QLNX\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-10T16:19:47.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "TokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\LoginRepository\\TokenRepository.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Repository\\LoginRepository\\TokenRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\LoginRepository\\TokenRepository.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Repository\\LoginRepository\\TokenRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:03:50.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ITokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\LoginRepository\\ITokenRepository.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Repository\\LoginRepository\\ITokenRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\LoginRepository\\ITokenRepository.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Repository\\LoginRepository\\ITokenRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:03:49.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\LoginRepository\\IApiService.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Repository\\LoginRepository\\IApiService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\LoginRepository\\IApiService.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Repository\\LoginRepository\\IApiService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T15:42:51.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\LoginRepository\\ApiService.cs",
+              "RelativeDocumentMoniker": "DuAnWeb_QLNX\\Repository\\LoginRepository\\ApiService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DuAnWeb_QLNX\\Repository\\LoginRepository\\ApiService.cs",
+              "RelativeToolTip": "DuAnWeb_QLNX\\Repository\\LoginRepository\\ApiService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBoAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T15:43:35.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "LoginRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\LoginDTO\\LoginRequestDTO.cs",
+              "RelativeDocumentMoniker": "DATA_DuAn\\DTO\\LoginDTO\\LoginRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\LapTrinhWeB_2\\DAWeb_QLNX\\DuAnWeb_QLNX\\DATA_DuAn\\DTO\\LoginDTO\\LoginRequestDTO.cs",
+              "RelativeToolTip": "DATA_DuAn\\DTO\\LoginDTO\\LoginRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T15:15:53.248Z"
             }
           ]
         },

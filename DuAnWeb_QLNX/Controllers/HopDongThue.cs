@@ -1,87 +1,73 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using DATA_DuAn.Data;
 using DuAnWeb_QLNX.Repository.HopDongThueRepository;
 using DATA_DuAn.DTO.HopDongDto;
+using System.Collections.Generic;
+
 namespace DuAnWeb_QLNX.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
-    public class HopDongThue : ControllerBase
+    [Route("api/[controller]")]
+    public class HopDongThueController : ControllerBase
     {
-        private readonly IHopDongThueRepository _repository;
+        private readonly IHopDongThueRepository _hopDongThueRepository;
 
-        public HopDongThue(IHopDongThueRepository repository)
+        public HopDongThueController(IHopDongThueRepository hopDongThueRepository)
         {
-            _repository = repository;
+            _hopDongThueRepository = hopDongThueRepository;
         }
 
-        // GET: api/HopDongThue
-        [HttpGet]
-        public ActionResult<IEnumerable<HopDongThueDTO>> GetHopDongThues()
+        [HttpGet("get-all")]
+        public IActionResult GetAllHopDong()
         {
-            var hopDongThues = _repository.GetHopDong();
-            return Ok(hopDongThues);
+            var hopDongs = _hopDongThueRepository.GetHopDong();
+            return Ok(hopDongs);
         }
 
-        // GET: api/HopDongThue/5
-        [HttpGet("{id}")]
-        public ActionResult<HopDongThueDTO> GetHopDongThue(int id)
+        [HttpGet("get-by-id/{id}")]
+        public IActionResult GetHopDongById(int id)
         {
-            var hopDongThue = _repository.GetHopDong(id);
-            if (hopDongThue == null)
+            var hopDong = _hopDongThueRepository.GetHopDong(id);
+            if (hopDong == null)
             {
                 return NotFound();
             }
-            return Ok(hopDongThue);
+            return Ok(hopDong);
         }
 
-        // GET: api/HopDongThue/khachhang/5
-        [HttpGet("khachhang/{id}")]
-        public ActionResult<IEnumerable<HopDongThueDTO>> GetHopDongByKhachHang(int id)
+        [HttpPost("add")]
+        public IActionResult AddHopDong(AddHopDongDTO addHopDongDTO)
         {
-            var hopDongThues = _repository.GetMaKH(id);
-            return Ok(hopDongThues);
-        }
-
-        // POST: api/HopDongThue
-        [HttpPost]
-        public ActionResult<AddHopDongDTO> PostHopDongThue(AddHopDongDTO addHopDong)
-        {
-            var createdHopDong = _repository.AddHopDong(addHopDong);
-            return CreatedAtAction(nameof(GetHopDongThue), new { id = createdHopDong.MaKH }, createdHopDong);
-        }
-
-        // PUT: api/HopDongThue/5
-        [HttpPut("{id}")]
-        public IActionResult PutHopDongThue(int id, AddHopDongDTO addHopDong)
-        {
-            if (id != addHopDong.MaKH)
+            if (ModelState.IsValid)
             {
-                return BadRequest();
+                var addedHopDong = _hopDongThueRepository.AddHopDong(addHopDongDTO);
+                return Ok(addedHopDong);
             }
+            else
+            {
+                return BadRequest(ModelState);
+            }
+        }
 
-            var updatedHopDong = _repository.PutHopDong(addHopDong, id);
+        [HttpPut("update/{id}")]
+        public IActionResult UpdateHopDong(int id, AddHopDongDTO addHopDongDTO)
+        {
+            var updatedHopDong = _hopDongThueRepository.PutHopDong(addHopDongDTO, id);
             if (updatedHopDong == null)
             {
                 return NotFound();
             }
-
-            return NoContent();
+            return Ok(updatedHopDong);
         }
 
-        // DELETE: api/HopDongThue/5
-        [HttpDelete("{id}")]
-        public IActionResult DeleteHopDongThue(int id)
+        [HttpDelete("delete/{id}")]
+        public IActionResult DeleteHopDong(int id)
         {
-            var hopDongThue = _repository.Delete(id);
-            if (hopDongThue == null)
+            var deletedHopDong = _hopDongThueRepository.Delete(id);
+            if (deletedHopDong == null)
             {
                 return NotFound();
             }
-
-            return NoContent();
+            return Ok(deletedHopDong);
         }
     }
 }
-
-    

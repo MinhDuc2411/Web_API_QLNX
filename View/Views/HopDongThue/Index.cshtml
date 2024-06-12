@@ -1,0 +1,78 @@
+﻿@model IEnumerable<DATA_DuAn.DTO.HopDongDto.HopDongThueDTO>
+
+@{
+    ViewData["Title"] = "Danh sách Hợp đồng Thuê";
+}
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container mt-4">
+    <h1 class="mb-4">@ViewData["Title"]</h1>
+
+    <div class="mb-3">
+        <a href="@Url.Action("Create", "HopDongThue")" class="btn btn-success">Create New</a>
+    </div>
+
+    <div class="mb-3">
+        <input type="text" id="searchInput" class="form-control" placeholder="Search..." onkeyup="searchTable()" />
+    </div>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.First().MaHopDong)</th>
+                <th>@Html.DisplayNameFor(model => model.First().MaKH)</th>
+                <th>@Html.DisplayNameFor(model => model.First().MaXe)</th>
+                <th>@Html.DisplayNameFor(model => model.First().MaNV)</th>
+                <th>@Html.DisplayNameFor(model => model.First().NgayBatDau)</th>
+                <th>@Html.DisplayNameFor(model => model.First().NgayKetThuc)</th>
+                <th>@Html.DisplayNameFor(model => model.First().TongTien)</th>
+                <th>@Html.DisplayNameFor(model => model.First().TinhTrang)</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.MaHopDong)</td>
+                    <td>@Html.DisplayFor(modelItem => item.MaKH)</td>
+                    <td>@Html.DisplayFor(modelItem => item.MaXe)</td>
+                    <td>@Html.DisplayFor(modelItem => item.MaNV)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NgayBatDau)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NgayKetThuc)</td>
+                    <td>@Html.DisplayFor(modelItem => item.TongTien)</td>
+                    <td>@Html.DisplayFor(modelItem => item.TinhTrang)</td>
+                    <td>
+                        <a href="@Url.Action("Edit", "HopDongThue", new { id = item.MaHopDong })" class="btn btn-primary btn-sm">Edit</a>
+                        <a href="@Url.Action("Details", "HopDongThue", new { id = item.MaHopDong })" class="btn btn-info btn-sm">Details</a>
+                        <a href="@Url.Action("Delete", "HopDongThue", new { id = item.MaHopDong })" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function searchTable() {
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("searchInput");
+        filter = input.value.toUpperCase();
+        table = document.querySelector(".table");
+        tr = table.getElementsByTagName("tr");
+        for (i = 1; i < tr.length; i++) {
+            tr[i].style.display = "none";
+            td = tr[i].getElementsByTagName("td");
+            for (var j = 0; j < td.length; j++) {
+                if (td[j]) {
+                    txtValue = td[j].textContent || td[j].innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                        break;
+                    }
+                }
+            }
+        }
+    }
+</script>

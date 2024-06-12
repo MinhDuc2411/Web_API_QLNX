@@ -23,7 +23,8 @@ namespace DuAnWeb_QLNX.Repository.DanhMucXe
                 HangXe = xe.HangXe,
                 MauSac = xe.MauSac,
                 GiaThue = xe.GiaThue,
-                TrangThai = xe.TrangThai
+                TrangThai = xe.TrangThai,
+                Image = xe.URl
             }).ToList();
             return allDanhMucXe;
         }
@@ -36,6 +37,7 @@ namespace DuAnWeb_QLNX.Repository.DanhMucXe
                 MauSac = danhmucxe.MauSac,
                 GiaThue = (decimal)danhmucxe.GiaThue,
                 TrangThai = danhmucxe.TrangThai,
+                URl = danhmucxe.Image
             };
             _context.DanhMucXe.Add(DanhMucXeDomain);
             _context.SaveChanges();
@@ -50,7 +52,7 @@ namespace DuAnWeb_QLNX.Repository.DanhMucXe
             xe.MauSac = addDanhMucXe.MauSac;
             xe.GiaThue = addDanhMucXe.GiaThue;
             xe.TrangThai = addDanhMucXe.TrangThai;
-
+            xe.URl = addDanhMucXe.Image;
             _context.SaveChanges();
 
             return addDanhMucXe;
@@ -82,6 +84,7 @@ namespace DuAnWeb_QLNX.Repository.DanhMucXe
                 MauSac = x.MauSac,
                 GiaThue = x.GiaThue,
                 TrangThai = x.TrangThai,
+                Image = x.URl
             }).ToList();
             return xeid;
         }
@@ -97,6 +100,7 @@ namespace DuAnWeb_QLNX.Repository.DanhMucXe
                 MauSac = x.MauSac,
                 GiaThue = x.GiaThue,
                 TrangThai = x.TrangThai,
+                Image = x.URl
             }).FirstOrDefault();
             return xeid;
         }

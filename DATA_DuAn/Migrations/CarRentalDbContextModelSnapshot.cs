@@ -45,6 +45,10 @@ namespace DATA_DuAn.Migrations
                     b.Property<string>("TrangThai")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("URl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("MaXe");
 
                     b.ToTable("DanhMucXe");
@@ -88,6 +92,37 @@ namespace DATA_DuAn.Migrations
                     b.HasIndex("MaXe");
 
                     b.ToTable("HopDongThue");
+                });
+
+            modelBuilder.Entity("DATA_DuAn.Models.Image", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("FileDescription")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FileExtension")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FilePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("FileSizeInBytes")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Images");
                 });
 
             modelBuilder.Entity("DATA_DuAn.Models.KhachHang", b =>

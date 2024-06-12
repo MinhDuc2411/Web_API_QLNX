@@ -6,45 +6,16 @@
 
 <h1>@ViewData["Title"]</h1>
 
-<div>
-    <dl class="row">
-        <dt class="col-sm-2">
-            Mã xe
-        </dt>
-        <dd class="col-sm-10">
-            @Model.MaXe
-        </dd>
-        <dt class="col-sm-2">
-            Biển số
-        </dt>
-        <dd class="col-sm-10">
-            @Model.BienSo
-        </dd>
-        <dt class="col-sm-2">
-            Hãng xe
-        </dt>
-        <dd class="col-sm-10">
-            @Model.HangXe
-        </dd>
-        <dt class="col-sm-2">
-            Màu sắc
-        </dt>
-        <dd class="col-sm-10">
-            @Model.MauSac
-        </dd>
-        <dt class="col-sm-2">
-            Giá thuê
-        </dt>
-        <dd class="col-sm-10">
-            @Model.GiaThue
-        </dd>
-        <dt class="col-sm-2">
-            Trạng thái
-        </dt>
-        <dd class="col-sm-10">
-            @Model.TrangThai
-        </dd>
-    </dl>
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="@Model.Image" alt="Hình ảnh xe" width="100px"/>
+    <div class="card-body">
+        <h5 class="card-title">Chi tiết xe</h5>
+        <p class="card-text"><strong>Mã xe: </strong>@Model.MaXe</p>
+        <p class="card-text"><strong>Biển số: </strong>@Model.BienSo</p>
+        <p class="card-text"><strong>Hãng xe: </strong>@Model.HangXe</p>
+        <p class="card-text"><strong>Màu sắc: </strong>@Model.MauSac</p>
+        <p class="card-text"><strong>Giá thuê: </strong>@Model.GiaThue</p>
+        <p class="card-text"><strong>Trạng thái: </strong>@Model.TrangThai</p>
+        <a href="@Url.Action("Index")" class="btn btn-primary">Quay lại danh sách</a>
+    </div>
 </div>
-
-<a asp-action="Index">Quay lại danh sách</a>

@@ -1,4 +1,4 @@
-﻿namespace DATA_DuAn.DTO.KhachHangDTO
+﻿namespace DATA_DuAn.DTO.KhachHangDto
 {
     public class KhachHangDTO
     {

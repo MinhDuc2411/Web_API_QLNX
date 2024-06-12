@@ -1,5 +1,5 @@
 ﻿using DATA_DuAn.DTO;
-using DATA_DuAn.DTO.KhachHangDTO;
+using DATA_DuAn.DTO.KhachHangDto;
 using DATA_DuAn.Models;
 using static System.Reflection.Metadata.BlobBuilder;
 namespace DuAnWeb_QLNX.Repository.KhachHangRepository

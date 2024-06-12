@@ -7,5 +7,7 @@
         public string? MauSac { get; set; }
         public decimal GiaThue { get; set; }
         public string? TrangThai { get; set; }
+
+        public string Image { get;set; }
     }
 }

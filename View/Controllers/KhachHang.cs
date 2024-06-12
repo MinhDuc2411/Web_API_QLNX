@@ -3,11 +3,12 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Net.Http.Json;
 using Microsoft.AspNetCore.Mvc;
-using DATA_DuAn.DTO.KhachHangDTO;
+using DATA_DuAn.DTO.KhachHangDto;
 using DATA_DuAn.Models;
 using System.Text.Json;
 using System.Text;
 using System.Net.Mime;
+using Azure;
 
 namespace DuAnWeb_QLNX.Controllers
 {
@@ -54,40 +55,71 @@ namespace DuAnWeb_QLNX.Controllers
             }
         }
 
-        // GET: DanhMucXe/Edit/5
+        // GET: KhachHang/Edit/5
+        [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
-            var client = _httpClientFactory.CreateClient();
-            var response = await client.GetAsync("https://localhost:7154/api/KhachHang/get-by-id?id"+id);
-            response.EnsureSuccessStatusCode();
-            var vehicle = await response.Content.ReadFromJsonAsync<KhachHangDTO>();
-            return View(vehicle);
-        }
-
-        // POST: DanhMucXe/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, KhachHangDTO updatedKhachHang)
-        {
-            if (ModelState.IsValid)
+            try
             {
                 var client = _httpClientFactory.CreateClient();
-                var httpReq = new HttpRequestMessage()
+                var response = await client.GetAsync($"https://localhost:7154/api/KhachHang/get-by-id/{id}");
+                ViewBag.Id = response;
+                if (response.IsSuccessStatusCode)
+                {
+                    var khachHang = await response.Content.ReadFromJsonAsync<KhachHangDTO>();
+                    return View(khachHang);
+                }
+                else
+                {
+                    return View("Error");
+                }
+            }
+            catch (Exception ex)
+            {
+                ViewBag.ErrorMessage = ex.Message;
+                return View("Error");
+            }
+        }
+
+        // POST: KhachHang/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit([FromRoute]int id, AddKhachHangRequestDTO updatedKhachHang)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View("Edit");
+            }
+
+            try
+            {
+                var client = _httpClientFactory.CreateClient();
+                var httpRequestMessage = new HttpRequestMessage
                 {
                     Method = HttpMethod.Put,
-                    RequestUri = new Uri("https://localhost:7154/api/KhachHang/update-KhachHang-by-id?id"+id),
+                    RequestUri = new Uri($"https://localhost:7154/api/KhachHang/update-KhachHang-by-id/"+id),
                     Content = new StringContent(JsonSerializer.Serialize(updatedKhachHang), Encoding.UTF8, MediaTypeNames.Application.Json)
                 };
 
-                var httpRes = await client.SendAsync(httpReq);
-                httpRes.EnsureSuccessStatusCode();
+                var response = await client.SendAsync(httpRequestMessage);
 
-                return RedirectToAction("Index", "KhachHang");
+                if (response.IsSuccessStatusCode)
+                {
+                    return RedirectToAction("Index","KhachHang");
+                }
+                else
+                {
+                    // Handle response error
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    ViewBag.ErrorMessage = $"Error: {response.StatusCode}. Details: {errorContent}";
+                    return View();
+                }
             }
-
-            return View(updatedKhachHang);
+            catch (Exception ex)
+            {
+                return View(ex.Message);
+            }
         }
-
 
         // GET: KhachHang/Delete/5
         public async Task<IActionResult> Delete(int id)

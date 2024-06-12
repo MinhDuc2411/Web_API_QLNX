@@ -1,11 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Net.Http.Headers;
 using System.Security.Claims;
-using DATA_DuAn;
 using DATA_DuAn.DTO;
-using System.Net.Mime;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Http;
+using System.Threading.Tasks;
+using System.Linq;
+using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
+using System.Net.Mime;
 
 namespace View.Controllers
 {
@@ -21,6 +27,7 @@ namespace View.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public async Task<IActionResult> Login(LoginRequestDTO loginRequestDto)
         {
@@ -29,12 +36,12 @@ namespace View.Controllers
                 var clt = _httpClientFactory.CreateClient();
                 var jsonContent = new StringContent(JsonSerializer.Serialize(loginRequestDto), Encoding.UTF8,
                     "application/json");
-                var response = await clt.PostAsync("https://localhost:7154/api/Account/Login", jsonContent);
+                var response = await clt.PostAsync("https://localhost:7154/api/Acc/Login", jsonContent);
                 if (response.IsSuccessStatusCode)
                 {
                     // Đọc token từ phản hồi
                     var token = await response.Content.ReadAsStringAsync();
-
+                    Console.WriteLine($"Add token: {token}\n\n");
                     // Lưu token vào session
                     HttpContext.Session.SetString("Jwt", token);
 
@@ -49,20 +56,38 @@ namespace View.Controllers
             }
             catch
             {
-                return RedirectToAction("PageLogin", "Account");
+                return RedirectToAction("Login", "Account");
             }
-            return RedirectToAction("PageLogin", "Account");
+            return RedirectToAction("Login", "Account");
+        }
+        public IActionResult Logout()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult LogoutSuccess()
+        {
+            try
+            {
+                // Xóa token khỏi session
+                HttpContext.Session.Remove("Jwt");
+                // Chuyển hướng đến trang đăng nhập sau khi đăng xuất
+                return RedirectToAction("Login", "Account");
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
         }
         public IActionResult Register()
         {
             var registerRequest = new RegisterRequestDTO();
-            // Gán các giá trị cho Roles
-            registerRequest.Roles = new string[] { "Read", "Write" }; // Thay bằng cách lấy từ database hoặc nơi khác
+            registerRequest.Roles = new string[] { "Read", "Write" };
             ViewBag.Roles = registerRequest.Roles;
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> RegisterUser(RegisterRequestDTO registerRequestDto)
+        public async Task<IActionResult> Register(RegisterRequestDTO registerRequestDto)
         {
             try
             {
@@ -70,13 +95,13 @@ namespace View.Controllers
                 var httpReq = new HttpRequestMessage()
                 {
                     Method = HttpMethod.Post,
-                    RequestUri = new Uri("https://localhost:7154/api/Account/Register"),
+                    RequestUri = new Uri("https://localhost:7154/api/Acc/Register"),
                     Content = new StringContent(JsonSerializer.Serialize(registerRequestDto), Encoding.UTF8,
                         MediaTypeNames.Application.Json)
                 };
                 var httpRes = await client.SendAsync(httpReq);
 
-                return RedirectToAction("PageLogin", "Account");
+                return RedirectToAction("Login", "Account");
             }
             catch
             {

@@ -2,8 +2,8 @@
 using DATA_DuAn.DTO;
 using DuAnWeb_QLNX.Repository.KhachHangRepository;
 using Microsoft.AspNetCore.Mvc;
-using DATA_DuAn.DTO.KhachHangDTO;
-using DATA_DuAn.DTO.NhanVienDTO;
+using DATA_DuAn.DTO.KhachHangDto;
+using DATA_DuAn.DTO.NhanVienDto;
 
 
 namespace DuAnWeb_QLNX.Controllers

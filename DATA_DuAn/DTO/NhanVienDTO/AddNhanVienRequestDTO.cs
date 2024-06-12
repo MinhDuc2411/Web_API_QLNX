@@ -1,4 +1,4 @@
-﻿namespace DATA_DuAn.DTO.NhanVienDTO
+﻿namespace DATA_DuAn.DTO.NhanVienDto
 {
 	public class AddNhanVienRequestDTO
 	{ 

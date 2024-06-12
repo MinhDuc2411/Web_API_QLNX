@@ -1,5 +1,5 @@
 ﻿using DATA_DuAn.Data;
-using DATA_DuAn.DTO.NhanVienDTO;
+using DATA_DuAn.DTO.NhanVienDto;
 using DATA_DuAn.DTO.ThanhToanDTO;
 using DATA_DuAn.Models;
 
