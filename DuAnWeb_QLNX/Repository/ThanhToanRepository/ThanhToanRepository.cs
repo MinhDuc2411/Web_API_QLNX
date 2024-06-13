@@ -1,6 +1,6 @@
 ﻿using DATA_DuAn.Data;
 using DATA_DuAn.DTO.NhanVienDto;
-using DATA_DuAn.DTO.ThanhToanDTO;
+using DATA_DuAn.DTO.ThanhToanDto;
 using DATA_DuAn.Models;
 
 namespace DuAnWeb_QLNX.Repository.ThanhToanRepository

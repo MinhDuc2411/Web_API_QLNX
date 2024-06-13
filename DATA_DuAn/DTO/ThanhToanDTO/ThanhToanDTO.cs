@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DATA_DuAn.DTO.ThanhToanDTO
+namespace DATA_DuAn.DTO.ThanhToanDto
 {
 	public class ThanhToanDTO
 	{

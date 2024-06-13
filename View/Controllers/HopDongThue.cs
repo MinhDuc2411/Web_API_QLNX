@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
 using DATA_DuAn.DTO.HopDongDto;
+using DATA_DuAn.DTO.NhanVienDto;
 
 namespace View.Controllers
 {
@@ -18,11 +19,11 @@ namespace View.Controllers
         // GET: HopDongThue
         public async Task<IActionResult> Index()
         {
-            var response = await _httpClient.GetAsync("https://localhost:7154/api/HopDongThue");
+            var response = await _httpClient.GetAsync("https://localhost:7154/api/HopDongThue/get-all");
             if (response.IsSuccessStatusCode)
             {
                 var hopDong = await response.Content.ReadFromJsonAsync<List<HopDongThueDTO>>();
-                return View();
+                return View(hopDong);
             }
             else
             {
@@ -32,10 +33,21 @@ namespace View.Controllers
         }
 
         // GET: HopDongThue/Details/5
-        public ActionResult Details(int id)
+        public async Task<IActionResult> Details(int id)
         {
-            return View();
+            var response = await _httpClient.GetAsync($"https://localhost:7154/api/HopDongThue/get-by-id/{id}");
+            if (response.IsSuccessStatusCode)
+            {
+                var hopdong = await response.Content.ReadFromJsonAsync<HopDongThueDTO>();
+                return View(hopdong);
+            }
+            else
+            {
+                // Handle error response
+                return View("Error");
+            }
         }
+
 
         // GET: HopDongThue/Create
         public ActionResult Create()
@@ -46,58 +58,33 @@ namespace View.Controllers
         // POST: HopDongThue/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<IActionResult> Create(HopDongThueDTO addhopdong)
         {
-            try
+            if (ModelState.IsValid)
             {
+                var client = _httpClientFactory.CreateClient();
+                var response = await client.PostAsJsonAsync("https://localhost:7154/api/HopDongThue/add", addhopdong);
+                response.EnsureSuccessStatusCode();
+
                 return RedirectToAction(nameof(Index));
             }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: HopDongThue/Edit/5
-        public ActionResult Edit(int id)
-        {
             return View();
         }
-
-        // POST: HopDongThue/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        [HttpGet]
+        public async Task<IActionResult> Delete([FromRoute] int id)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                var delXe = _httpClientFactory.CreateClient();
+                var httpResponseMess = await delXe.DeleteAsync("https://localhost:7154/api/HopDongThue/delete?id=" + id);
+                httpResponseMess.EnsureSuccessStatusCode();
+                return RedirectToAction("Index", "HopDongThue");
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                ViewBag.Error = ex.Message;
             }
-        }
-
-        // GET: HopDongThue/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: HopDongThue/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            return View("Index");
         }
     }
 }

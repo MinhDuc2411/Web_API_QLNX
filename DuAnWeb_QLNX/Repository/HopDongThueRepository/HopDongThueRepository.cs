@@ -58,38 +58,42 @@ namespace DuAnWeb_QLNX.Repository.HopDongThueRepository
             return allhopdong;
         }
 
-        public HopDongThueDTO GetHopDong(int id)
+        public HopDongThueDTO GetHopDongById(int id)
         {
-            var getMaKh = _context.HopDongThue.Where(HopDongThue => HopDongThue.MaKH == id).ToList();
-            var getDomain = getMaKh.Select(HopDongThue => new HopDongThueDTO()
+            var hopDong = _context.HopDongThue.FirstOrDefault(hd => hd.MaHopDong == id);
+            if (hopDong == null)
             {
-                MaKH = HopDongThue.MaKH,
-                MaXe = HopDongThue.MaXe,
-                MaNV = HopDongThue.MaNV,
-                NgayBatDau = HopDongThue.NgayBatDau,
-                NgayKetThuc = HopDongThue.NgayKetThuc,
-                TongTien = HopDongThue.TongTien,
-                TinhTrang = HopDongThue.TinhTrang,
-            }).FirstOrDefault();
-            return getDomain;
+                return null;
+            }
+
+            return new HopDongThueDTO
+            {
+                MaHopDong = hopDong.MaHopDong,
+                MaKH = hopDong.MaKH,
+                MaXe = hopDong.MaXe,
+                MaNV = hopDong.MaNV,
+                NgayBatDau = hopDong.NgayBatDau,
+                NgayKetThuc = hopDong.NgayKetThuc,
+                TongTien = hopDong.TongTien,
+                TinhTrang = hopDong.TinhTrang
+            };
         }
-     
-        public List<HopDongThueDTO> GetMaKH(int id)
+
+        public List<HopDongThueDTO> GetHopDongByMaKH(int maKH)
         {
             return _context.HopDongThue
-                           .Where(h => h.MaKH == id) 
-                           .Select(h => new HopDongThueDTO
-                           {
-                               MaHopDong = h.MaHopDong,
-                               MaKH = h.MaKH,
-                               MaXe = h.MaXe,
-                               MaNV = h.MaNV,
-                               NgayBatDau = h.NgayBatDau,
-                               NgayKetThuc = h.NgayKetThuc,
-                               TongTien = h.TongTien,
-                               TinhTrang = h.TinhTrang,                                                           
-                           })
-                           .ToList();
+                .Where(hd => hd.MaKH == maKH)
+                .Select(hd => new HopDongThueDTO
+                {
+                    MaHopDong = hd.MaHopDong,
+                    MaKH = hd.MaKH,
+                    MaXe = hd.MaXe,
+                    MaNV = hd.MaNV,
+                    NgayBatDau = hd.NgayBatDau,
+                    NgayKetThuc = hd.NgayKetThuc,
+                    TongTien = hd.TongTien,
+                    TinhTrang = hd.TinhTrang
+                }).ToList();
         }
 
         public AddHopDongDTO PutHopDong(AddHopDongDTO addHopDong, int id)

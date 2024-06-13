@@ -1,0 +1,50 @@
+﻿@model DATA_DuAn.DTO.ThanhToanDto.ThanhToanDTO
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h2 class="mb-0">Payment Details</h2>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Transaction Details</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.MaTT)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.MaTT)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.MaHopDong)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.MaHopDong)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.NgayThanhToan)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.NgayThanhToan)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.SoTien)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.SoTien)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.PhuongThuc)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.PhuongThuc)
+                </dd>
+            </dl>
+            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+        </div>
+    </div>
+</div>

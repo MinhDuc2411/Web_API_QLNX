@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DATA_DuAn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b484c86fd2a782ae96b65fab7617d11a1b162d6d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93ad2283882a8eda45429eb8e103ba4e5300a2e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("DATA_DuAn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DATA_DuAn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

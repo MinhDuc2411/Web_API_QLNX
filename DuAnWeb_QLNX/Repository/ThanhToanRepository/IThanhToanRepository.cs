@@ -1,4 +1,4 @@
-﻿using DATA_DuAn.DTO.ThanhToanDTO;
+﻿using DATA_DuAn.DTO.ThanhToanDto;
 
 namespace DuAnWeb_QLNX.Repository.ThanhToanRepository
 {

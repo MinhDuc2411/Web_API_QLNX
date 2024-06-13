@@ -1,0 +1,45 @@
+﻿@model DATA_DuAn.DTO.HopDongDto.HopDongThueDTO
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container mt-4">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+
+    <div class="card mt-4">
+        <div class="card-header">
+            <h4>Hợp Đồng Chi Tiết</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Mã Hợp Đồng</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.MaHopDong)</dd>
+
+                <dt class="col-sm-3">Mã Khách Hàng</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.MaKH)</dd>
+
+                <dt class="col-sm-3">Mã Xe</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.MaXe)</dd>
+
+                <dt class="col-sm-3">Mã Nhân Viên</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.MaNV)</dd>
+
+                <dt class="col-sm-3">Ngày Bắt Đầu</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.NgayBatDau)</dd>
+
+                <dt class="col-sm-3">Ngày Kết Thúc</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.NgayKetThuc)</dd>
+
+                <dt class="col-sm-3">Tổng Tiền</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.TongTien)</dd>
+
+                <dt class="col-sm-3">Tình Trạng</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.TinhTrang)</dd>
+            </dl>
+        </div>
+        <div class="card-footer text-right">
+            <a class="btn btn-secondary" asp-action="Index">Back to List</a>
+        </div>
+    </div>
+</div>

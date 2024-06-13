@@ -26,7 +26,7 @@ namespace DuAnWeb_QLNX.Controllers
         [HttpGet("get-by-id/{id}")]
         public IActionResult GetHopDongById(int id)
         {
-            var hopDong = _hopDongThueRepository.GetHopDong(id);
+            var hopDong = _hopDongThueRepository.GetHopDongById(id);
             if (hopDong == null)
             {
                 return NotFound();

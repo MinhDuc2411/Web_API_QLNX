@@ -1,4 +1,4 @@
-﻿using DATA_DuAn.DTO.ThanhToanDTO;
+﻿using DATA_DuAn.DTO.ThanhToanDto;
 using DuAnWeb_QLNX.Repository.ThanhToanRepository;
 using Microsoft.AspNetCore.Mvc;
 

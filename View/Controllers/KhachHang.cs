@@ -121,37 +121,5 @@ namespace DuAnWeb_QLNX.Controllers
             }
         }
 
-        // GET: KhachHang/Delete/5
-        public async Task<IActionResult> Delete(int id)
-        {
-            var response = await _httpClient.GetAsync($"https://localhost:7154/api/KhachHang/get-by-id/{id}");
-            if (response.IsSuccessStatusCode)
-            {
-                var khachHang = await response.Content.ReadFromJsonAsync<KhachHangDTO>();
-                return View(khachHang);
-            }
-            else
-            {
-                // Handle error response
-                return View("Error");
-            }
-        }
-
-        // POST: KhachHang/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var response = await _httpClient.DeleteAsync($"https://localhost:7154/api/KhachHang/delete/{id}");
-            if (response.IsSuccessStatusCode)
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            else
-            {
-                // Handle error response
-                return View("Error");
-            }
-        }
     }
 }

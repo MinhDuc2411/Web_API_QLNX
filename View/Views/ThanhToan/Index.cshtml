@@ -1,0 +1,53 @@
+﻿@model IEnumerable<DATA_DuAn.DTO.ThanhToanDto.ThanhToanDTO>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h2 class="mb-0">Payment Transactions</h2>
+        </div>
+        <div class="card-body">
+            <div class="d-flex justify-content-between mb-3">
+                <h5 class="card-title">List of Payments</h5>
+                <a asp-action="Create" class="btn btn-success">Create New</a>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.MaTT)</th>
+                            <th>@Html.DisplayNameFor(model => model.MaHopDong)</th>
+                            <th>@Html.DisplayNameFor(model => model.NgayThanhToan)</th>
+                            <th>@Html.DisplayNameFor(model => model.SoTien)</th>
+                            <th>@Html.DisplayNameFor(model => model.PhuongThuc)</th>
+                            <th class="text-center">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.MaTT)</td>
+                                <td>@Html.DisplayFor(modelItem => item.MaHopDong)</td>
+                                <td>@Html.DisplayFor(modelItem => item.NgayThanhToan)</td>
+                                <td>@Html.DisplayFor(modelItem => item.SoTien)</td>
+                                <td>@Html.DisplayFor(modelItem => item.PhuongThuc)</td>
+                                <td class="text-center">
+                                    <div class="btn-group" role="group">
+                                        <a asp-action="Edit" asp-route-id="@item.MaTT" class="btn btn-sm btn-outline-warning">Edit</a>
+                                        <a asp-action="Details" asp-route-id="@item.MaTT" class="btn btn-sm btn-outline-info">Details</a>
+                                        <a asp-action="Delete" asp-route-id="@item.MaTT" class="btn btn-sm btn-outline-danger">Delete</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

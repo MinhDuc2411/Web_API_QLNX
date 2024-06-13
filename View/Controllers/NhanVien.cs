@@ -117,7 +117,7 @@ namespace View.Controllers
                 var delXe = _httpClientFactory.CreateClient();
                 var httpResponseMess = await delXe.DeleteAsync("https://localhost:7154/api/NhanVien/Detele-NhanVien?id=" + id);
                 httpResponseMess.EnsureSuccessStatusCode();
-                return RedirectToAction("Index", "DanhMucXe");
+                return RedirectToAction("Index", "NhanVien");
             }
             catch (Exception ex)
             {
