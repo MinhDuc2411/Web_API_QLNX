@@ -2,30 +2,55 @@
 
 <style>
     .logout-card {
-        max-width: 400px;
+        max-width: 450px;
         margin: 50px auto;
-        padding: 20px;
-        background-color: #343a40;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 25px;
+        background-color: #1d2124;
+        border-radius: 12px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
         color: white;
+        text-align: center;
     }
 
-    .logout-button {
-        background-color: #dc3545;
-        border-color: #dc3545;
+    .logout-card .card-header {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .logout-card .btn-logout {
+        background-color: #ff4b5c;
+        border-color: #ff4b5c;
         width: 100%;
+        padding: 10px;
+        font-size: 1.2rem;
     }
 
-        .logout-button:hover {
-            background-color: #c82333;
-            border-color: #bd2130;
-        }
+    .logout-card .btn-logout:hover {
+        background-color: #d43f4b;
+        border-color: #d43f4b;
+    }
+
+    .logout-card .btn-cancel {
+        background-color: #6c757d;
+        border-color: #6c757d;
+        width: 100%;
+        padding: 10px;
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+
+    .logout-card .btn-cancel:hover {
+        background-color: #5a6268;
+        border-color: #545b62;
+    }
 </style>
 
-<div class="logout-card text-center">
-    <label class="h5 mb-4">Are you sure you want to log out?</label>
+<div class="logout-card">
+    <div class="card-header">Confirm Logout</div>
+    <p class="mb-4">Are you sure you want to log out?</p>
     <form asp-action="LogoutSuccess" method="post">
-        <button type="submit" class="btn logout-button">Logout</button>
+        <button type="submit" class="btn btn-logout">Logout</button>
+        <a href="/" class="btn btn-cancel">Cancel</a>
     </form>
 </div>

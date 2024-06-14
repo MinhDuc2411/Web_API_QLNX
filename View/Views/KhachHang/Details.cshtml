@@ -1,53 +1,72 @@
 ﻿@model DATA_DuAn.DTO.KhachHangDto.KhachHangDTO
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Chỉnh Sửa";
 }
 
-<h1>KhachHang</h1>
+<h1 class="text-center mt-4">@ViewData["Title"]</h1>
 
-<div>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MaKH)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.MaKH)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Cccd)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Cccd)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TenKH)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.TenKH)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DiaChi)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DiaChi)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SoDT)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SoDT)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-    </dl>
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Edit Khách Hàng</h3>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.MaKH)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.MaKH)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.Cccd)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Cccd)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.TenKH)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.TenKH)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.DiaChi)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.DiaChi)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.SoDT)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.SoDT)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.Email)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Email)
+                </dd>
+            </dl>
+        </div>
+        <div class="card-footer text-center">
+            @Html.ActionLink("Edit", "Edit", new { id = Model.MaKH }, new { @class = "btn btn-primary" }) 
+            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+        </div>
+    </div>
 </div>
-<div>
-    @Html.ActionLink("Edit", "Edit", new {  id = Model.MaKH}) |
-    <a asp-action="Index">Back to List</a>
-</div>
+
+<style>
+    .card-title {
+        margin-bottom: 0;
+    }
+    .dl-horizontal dt {
+        text-align: left;
+        white-space: nowrap;
+    }
+    .dl-horizontal dd {
+        margin-left: 0;
+    }
+</style>

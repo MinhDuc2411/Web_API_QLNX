@@ -4,92 +4,91 @@
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
-    .register-form {
-        max-width: 400px;
-        margin: 50px auto;
-        background-color: #343a40;
-        border-radius: 10px;
-        padding: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    .register-card {
+        max-width: 450px;
+        margin: 60px auto;
+        background-color: #282c34;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     }
 
-        .register-form .form-group label {
-            color: white;
+        .register-card .form-group label {
+            color: #f8f9fa;
             font-weight: bold;
         }
 
-        .register-form .form-check-label {
-            color: white;
+        .register-card .form-check-label {
+            color: #f8f9fa;
         }
 
-        .register-form .btn-primary {
-            background-color: #007bff;
-            border-color: #007bff;
+        .register-card .btn-register {
+            background-color: #28a745;
+            border-color: #28a745;
         }
 
-            .register-form .btn-primary:hover {
-                background-color: #0056b3;
-                border-color: #0056b3;
+            .register-card .btn-register:hover {
+                background-color: #218838;
+                border-color: #1e7e34;
             }
 
-        .register-form .login-link {
-            color: #007bff;
+        .register-card .login-link {
+            color: #17a2b8;
             text-decoration: none;
         }
 
-            .register-form .login-link:hover {
+            .register-card .login-link:hover {
                 text-decoration: underline;
             }
+
+        .register-card .form-check-input {
+            margin-top: 0.3rem;
+        }
 </style>
 
-<div class="register-form">
+<div class="register-card">
     <form asp-controller="Account" asp-action="Register" method="post">
         <div class="form-group">
-            <label asp-for="Username"></label>
-            <input asp-for="Username" class="form-control" />
+            <label asp-for="Username">Username</label>
+            <input asp-for="Username" class="form-control" placeholder="Enter your username" />
+            <span asp-validation-for="Username" class="text-danger"></span>
         </div>
         <div class="form-group">
-            <label asp-for="Password"></label>
-            <input id="floatingPassword" asp-for="Password" type="password" class="form-control" />
+            <label asp-for="Password">Password</label>
+            <input asp-for="Password" type="password" class="form-control" id="password" placeholder="Enter your password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
         </div>
         <div class="form-group">
-            <label for="confirmPassword" class="text-white">Confirm Password</label>
-            <input id="confirmPassword" type="password" class="form-control" />
+            <label for="confirmPassword">Confirm Password</label>
+            <input id="confirmPassword" type="password" class="form-control" placeholder="Confirm your password" />
             <span id="passwordMatchError" class="text-danger" style="display:none;">Passwords do not match</span>
         </div>
         <div class="form-group">
             @foreach (var role in ViewBag.Roles)
             {
-                <div class="form-check form-check-inline">
-                    @if (@role == "Read")
-                    {
-                        <input type="hidden" name="Roles" value="@role" />
-                    }
-                    else
-                    {
-                        <input class="form-check-input" type="checkbox" name="Roles" value="@role" id="role-@role" />
-                        <label class="form-check-label text-white" for="role-@role">Admin</label>
-                    }
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="Roles" value="@role" id="role-@role" />
+                    <label class="form-check-label" for="role-@role">@role</label>
                 </div>
             }
         </div>
-        <div class="form-check mt-2">
-            <input class="form-check-input" type="checkbox" id="showPassword" onclick="togglePassword()">
+        <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="showPassword" onclick="togglePasswordVisibility()">
             <label class="form-check-label" for="showPassword">Show Password</label>
         </div>
-        <div class="d-flex flex-column mt-4">
-            <button type="submit" class="btn btn-primary text-white mb-3" onclick="return validatePasswordMatch()">Register</button>
-            <div class="text-center">
-                <label class="text-white d-block mb-2">Already have an account?</label>
-                <a class="login-link" asp-controller="Account" asp-action="Login">Login</a>
-            </div>
+        <div class="d-grid">
+            <button type="submit" class="btn btn-register text-white" onclick="return validatePassword()">Register</button>
+        </div>
+        <div class="text-center mt-3">
+            <span class="text-white">Already have an account? </span>
+            <a class="login-link" asp-controller="Account" asp-action="Login">Login</a>
         </div>
     </form>
 </div>
 
 <script>
-    function togglePassword() {
-        var passwordField = document.getElementById("floatingPassword");
+    function togglePasswordVisibility() {
+        var passwordField = document.getElementById("password");
         var confirmPasswordField = document.getElementById("confirmPassword");
         var showPasswordCheckbox = document.getElementById("showPassword");
 
@@ -102,8 +101,8 @@
         }
     }
 
-    function validatePasswordMatch() {
-        var password = document.getElementById("floatingPassword").value;
+    function validatePassword() {
+        var password = document.getElementById("password").value;
         var confirmPassword = document.getElementById("confirmPassword").value;
         var passwordMatchError = document.getElementById("passwordMatchError");
 
